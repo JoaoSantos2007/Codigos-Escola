@@ -9,5 +9,5 @@ int main(){
     cin>>pic;
     media=(p1*2+pic)/3;
     cout<<"A media do(a) aluno(a) e : ";
-    cout<<media;
+    cout<<media;                
 }
