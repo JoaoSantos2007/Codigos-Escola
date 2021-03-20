@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout<<"Cadastro de Clientes\n";
+    cout<<"====================\n\n";
+    cout<<"0 - Fim"<<endl;
+    cout<<"1 - Inclui\n";
+    cout<<"2 - Altera\n";
+    cout<<"3 - Exclui\n";
+    cout<<"4 - Consulta\n\n";
+    cout<<"Opcao: \n\n";
+}
