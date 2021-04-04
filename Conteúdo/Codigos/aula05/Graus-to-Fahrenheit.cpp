@@ -6,6 +6,6 @@ int main(){
     cout<<"Digite a temperatura em graus celsius: ";
     cin>>cel;
     fah=cel*1.8+32;
-    cout<<"A conversão de graus celsius para fahrenheit e: ";
+    cout<<"A conversao de graus celsius para fahrenheit e: ";
     cout<<fah;
 }
