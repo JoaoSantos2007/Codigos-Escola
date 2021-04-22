@@ -4,5 +4,5 @@ using namespace std;
 
 int main(){
     setlocale(LC_ALL,"");
-    cout<<"é, ã, á, à, â, ô, ç";
+    cout<<"Ã­, ï¿½, ï¿½, ï¿½, ï¿½, ï¿½, ï¿½";
 }
