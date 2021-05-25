@@ -2,18 +2,21 @@
 using namespace std;
 
 int main(){
-    int N,A,dia;
+    int N;
+    int A;
+    int dias = 0;
+    int totacessos = 0;
+    int ok = 1;
+    int tempo = 0;
     cin>>N;
-    dia = 0;
-    int visitas,visitados;
-    visitas = 0;
-    for(int i = 1;i<=N;i++){
+    for(int i = 0;i<=N;i++){
         cin>>A;
-        dia++;
-        visitas += A;
-        if(visitas >=1000000 && visitados == 0){
-            visitados = dia;
+        totacessos += A;
+        tempo++;
+        if(totacessos >= 100000000 && ok == 1){
+            dias = tempo;
+            ok = 0;
         }
     }
-    cout<<visitados;
+    cout<<dias;
 }
