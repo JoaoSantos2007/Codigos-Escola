@@ -16,4 +16,5 @@ int main(){
             valido = false;
         }
     }
+    cout<<endl;
 }

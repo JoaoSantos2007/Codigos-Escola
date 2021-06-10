@@ -20,7 +20,15 @@ int main(){
 
 
     for(int i = 0;i < n;i++){
-        vetor_soma[i] = vetor1[i] + vetor2[i];
+        if(vetor1[i] % 2 == 0 && vetor2[i] % 2 == 0){
+            vetor_soma[i] = vetor1[i] + vetor2[i];            
+        }else if(vetor1[i] % 2 == 0){
+            vetor_soma[i] = vetor1[i];
+        }else if(vetor2[i] % 2 == 0){
+            vetor_soma[i] = vetor2[i];
+        }else{
+            vetor_soma[i] = 0;
+        }
     }
 
     cout<<endl<<"Vetor Soma: "<<endl;
